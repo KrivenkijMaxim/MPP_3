@@ -1,0 +1,30 @@
+﻿<Window x:Class="DirectoryScanner.View.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+        xmlns:impl="clr-namespace:DirectoryScanner.Model;assembly=DirectoryScanner"
+        xmlns:local="clr-namespace:DirectoryScanner.ViewModel;assembly=DirectoryScanner"
+        xmlns:viewmodel="clr-namespace:DirectoryScanner.ViewModel;assembly=DirectoryScanner" xmlns:converters="clr-namespace:DirectoryScanner.View" d:DataContext="{d:DesignInstance Type=viewmodel:DirectoryScannerViewModel}"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="589">
+    <Grid>
+        <Button Content="Open" HorizontalAlignment="Left" Margin="62,74,0,0" VerticalAlignment="Top" Command="{Binding StartScannerCommand}"/>
+        <Button Content="Cancel" HorizontalAlignment="Left" Margin="142,74,0,0" VerticalAlignment="Top" Height="20" Command="{Binding CancelScannerCommand}"/>
+        <TreeView x:Name="directoryTreeView" Margin="38,136,122,54" ItemsSource="{Binding Root.ChildNodes}">
+            <TreeView.ItemTemplate>
+                <HierarchicalDataTemplate ItemsSource="{Binding Path=ChildNodes}">
+                    <DockPanel>
+                        <Image Width="30" Source="{Binding Path=Type, Converter={converters:TypeToSourceConverter}}">
+                        </Image>
+                        <TextBlock>
+                           <Run Text=" "/><Run Text="{Binding Name}"/><Run Text=" "/> 
+                            <Run Text="{Binding Size}"/><Run Text=" "/>
+                            <Run Text="{Binding Percentage, Converter={converters:DoubleToStringConverter}}" /><Run Text="%"/>
+                        </TextBlock>
+                    </DockPanel>
+                </HierarchicalDataTemplate>
+            </TreeView.ItemTemplate>
+        </TreeView>
+    </Grid>
+</Window>

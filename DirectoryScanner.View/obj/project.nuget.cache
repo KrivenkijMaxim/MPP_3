@@ -1,0 +1,34 @@
+{
+  "version": 2,
+  "dgSpecHash": "6I/dPauT879jkxThmR46o6ba5b7NoHWi3Fdz1w84GggZAX9tQHacBQaC9PD2GNAugkAnNjoVdtP9V94kBrUdbQ==",
+  "success": true,
+  "projectFilePath": "D:\\3course\\СПП\\Lab3\\mpp\\DirectoryScanner\\DirectoryScanner.View\\DirectoryScanner.View.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\user\\.nuget\\packages\\epp.presentationcore\\1.0.0\\epp.presentationcore.1.0.0.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\folderbrowserforwpf\\1.2.0\\folderbrowserforwpf.1.2.0.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\presentationframework\\4.6.0\\presentationframework.4.6.0.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\prism.core\\8.1.97\\prism.core.8.1.97.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'EPP.PresentationCore 1.0.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0-windows7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "EPP.PresentationCore",
+      "targetGraphs": [
+        "net6.0-windows7.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'PresentationFramework 4.6.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0-windows7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "PresentationFramework",
+      "targetGraphs": [
+        "net6.0-windows7.0"
+      ]
+    }
+  ]
+}

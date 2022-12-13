@@ -1,0 +1,233 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "EPP.PresentationCore/1.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/PresentationCore.dll": {}
+        },
+        "runtime": {
+          "lib/PresentationCore.dll": {}
+        }
+      },
+      "FolderBrowserForWPF/1.2.0": {
+        "type": "package",
+        "compile": {
+          "lib/net472/FolderBrowserForWPF.dll": {}
+        },
+        "runtime": {
+          "lib/net472/FolderBrowserForWPF.dll": {}
+        }
+      },
+      "PresentationFramework/4.6.0": {
+        "type": "package",
+        "compile": {
+          "lib/PresentationFramework.dll": {}
+        },
+        "runtime": {
+          "lib/PresentationFramework.dll": {}
+        }
+      },
+      "Prism.Core/8.1.97": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/Prism.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net5.0/Prism.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "EPP.PresentationCore/1.0.0": {
+      "sha512": "ttSZCunyGyOsL20FBZxM3K/7wMvWQ9vel+IidzFYdK02RIEx+EsV3Vc0Yeo8YslOp7G08unjNrtZEtWfLXJy4Q==",
+      "type": "package",
+      "path": "epp.presentationcore/1.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "epp.presentationcore.1.0.0.nupkg.sha512",
+        "epp.presentationcore.nuspec",
+        "lib/PresentationCore.dll"
+      ]
+    },
+    "FolderBrowserForWPF/1.2.0": {
+      "sha512": "CSVh14iL4unRKBSOjWakdch3dJDS6r/sboQ7yoKEbfHEldVcPa8lXqkTtLb2eicFVVS3bGJIBXC3mPKe8CYd/g==",
+      "type": "package",
+      "path": "folderbrowserforwpf/1.2.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "folderbrowserforwpf.1.2.0.nupkg.sha512",
+        "folderbrowserforwpf.nuspec",
+        "lib/net472/FolderBrowserForWPF.dll",
+        "lib/net5.0-windows7.0/FolderBrowserForWPF.dll"
+      ]
+    },
+    "PresentationFramework/4.6.0": {
+      "sha512": "37FpU6XcB1Hgr5X03MgUOxvzWLJYKJP72J3g5hnZHi/DXsTxpJEu4brCGW+TmplVWfntuysO/uRcZcPS9YK0Bw==",
+      "type": "package",
+      "path": "presentationframework/4.6.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/PresentationFramework.dll",
+        "presentationframework.4.6.0.nupkg.sha512",
+        "presentationframework.nuspec"
+      ]
+    },
+    "Prism.Core/8.1.97": {
+      "sha512": "EP5zrvWddw3eSq25Y7hHnDYdmLZEC2Z/gMrvmHzUuLbitmA1UaS7wQUlSwNr9Km8lzJNCvytFnaGBEFukHgoHg==",
+      "type": "package",
+      "path": "prism.core/8.1.97",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "lib/net461/Prism.dll",
+        "lib/net461/Prism.pdb",
+        "lib/net461/Prism.xml",
+        "lib/net47/Prism.dll",
+        "lib/net47/Prism.pdb",
+        "lib/net47/Prism.xml",
+        "lib/net5.0/Prism.dll",
+        "lib/net5.0/Prism.pdb",
+        "lib/net5.0/Prism.xml",
+        "lib/netstandard2.0/Prism.dll",
+        "lib/netstandard2.0/Prism.pdb",
+        "lib/netstandard2.0/Prism.xml",
+        "prism-logo.png",
+        "prism.core.8.1.97.nupkg.sha512",
+        "prism.core.nuspec",
+        "readme.txt"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "EPP.PresentationCore >= 1.0.0",
+      "FolderBrowserForWPF >= 1.2.0",
+      "PresentationFramework >= 4.6.0",
+      "Prism.Core >= 8.1.97"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\user\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\3course\\СПП\\Lab3\\mpp\\DirectoryScanner\\DirectoryScanner\\DirectoryScanner.csproj",
+      "projectName": "DirectoryScanner",
+      "projectPath": "D:\\3course\\СПП\\Lab3\\mpp\\DirectoryScanner\\DirectoryScanner\\DirectoryScanner.csproj",
+      "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+      "outputPath": "D:\\3course\\СПП\\Lab3\\mpp\\DirectoryScanner\\DirectoryScanner\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "dependencies": {
+          "EPP.PresentationCore": {
+            "target": "Package",
+            "version": "[1.0.0, )"
+          },
+          "FolderBrowserForWPF": {
+            "target": "Package",
+            "version": "[1.2.0, )"
+          },
+          "PresentationFramework": {
+            "target": "Package",
+            "version": "[4.6.0, )"
+          },
+          "Prism.Core": {
+            "target": "Package",
+            "version": "[8.1.97, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.403\\RuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'EPP.PresentationCore 1.0.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "libraryId": "EPP.PresentationCore",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'FolderBrowserForWPF 1.2.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "libraryId": "FolderBrowserForWPF",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'PresentationFramework 4.6.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "libraryId": "PresentationFramework",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
+}

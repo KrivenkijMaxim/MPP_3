@@ -1,0 +1,12 @@
+D:\3course\СПП\Lab3\mpp\DirectoryScanner\DirectoryScanner\bin\Debug\net6.0\DirectoryScanner.deps.json
+D:\3course\СПП\Lab3\mpp\DirectoryScanner\DirectoryScanner\bin\Debug\net6.0\DirectoryScanner.dll
+D:\3course\СПП\Lab3\mpp\DirectoryScanner\DirectoryScanner\bin\Debug\net6.0\DirectoryScanner.pdb
+D:\3course\СПП\Lab3\mpp\DirectoryScanner\DirectoryScanner\obj\Debug\net6.0\DirectoryScanner.csproj.AssemblyReference.cache
+D:\3course\СПП\Lab3\mpp\DirectoryScanner\DirectoryScanner\obj\Debug\net6.0\DirectoryScanner.GeneratedMSBuildEditorConfig.editorconfig
+D:\3course\СПП\Lab3\mpp\DirectoryScanner\DirectoryScanner\obj\Debug\net6.0\DirectoryScanner.AssemblyInfoInputs.cache
+D:\3course\СПП\Lab3\mpp\DirectoryScanner\DirectoryScanner\obj\Debug\net6.0\DirectoryScanner.AssemblyInfo.cs
+D:\3course\СПП\Lab3\mpp\DirectoryScanner\DirectoryScanner\obj\Debug\net6.0\DirectoryScanner.csproj.CoreCompileInputs.cache
+D:\3course\СПП\Lab3\mpp\DirectoryScanner\DirectoryScanner\obj\Debug\net6.0\DirectoryScanner.dll
+D:\3course\СПП\Lab3\mpp\DirectoryScanner\DirectoryScanner\obj\Debug\net6.0\refint\DirectoryScanner.dll
+D:\3course\СПП\Lab3\mpp\DirectoryScanner\DirectoryScanner\obj\Debug\net6.0\DirectoryScanner.pdb
+D:\3course\СПП\Lab3\mpp\DirectoryScanner\DirectoryScanner\obj\Debug\net6.0\ref\DirectoryScanner.dll
