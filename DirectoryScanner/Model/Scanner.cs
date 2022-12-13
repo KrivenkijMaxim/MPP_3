@@ -51,7 +51,6 @@ namespace DirectoryScanner.Model
             {
                 _folderQueue.Clear(); //  чистим очередь
             }
-            Trace.WriteLine(_semaphore.CurrentCount);
 
             _root.Size = CountSize(_root);
             CountRelativeSize(_root);
@@ -61,8 +60,6 @@ namespace DirectoryScanner.Model
 
         private void ScanDirectory(DirectoryComponent dir)
         {
-            Trace.WriteLine(_semaphore.CurrentCount);
-            //
             var dirInfo = new DirectoryInfo(dir.FullName);
 
             try
@@ -104,8 +101,6 @@ namespace DirectoryScanner.Model
             {
 
             }
-
-            //Trace.WriteLine(_semaphore.CurrentCount);
             _semaphore.Release();
         }
 

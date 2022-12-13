@@ -1,0 +1,9 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=f2f3f470_002D2b98_002D474a_002D8517_002D6c43296c937d/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="Test_SymLink" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::E4F4CA6C-26FF-4A9A-8F7C-F57682C8CBCC::net6.0::DirectoryScanner.Tests.Tests.Test_SymLink&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::E4F4CA6C-26FF-4A9A-8F7C-F57682C8CBCC::net6.0::DirectoryScanner.Tests.Tests.Test_WindowsFolderFileCount&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::E4F4CA6C-26FF-4A9A-8F7C-F57682C8CBCC::net6.0::DirectoryScanner.Tests.Tests.Test_Cancellation&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::E4F4CA6C-26FF-4A9A-8F7C-F57682C8CBCC::net6.0::DirectoryScanner.Tests.Tests.Test_RootSize&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

@@ -18,7 +18,7 @@ namespace DirectoryScanner.Tests
         [Test]
         public void Test_RootSize()
         {
-            string path = @"C:\\Users\\maksimbell\\bsuir";
+            string path = @"D:\\3course\\СПП\\Lab3";
             long size = 0;
 
             IDirectoryComponent root = _scanner.StartScanner(path, _cancelTokenSource.Token);
@@ -33,26 +33,26 @@ namespace DirectoryScanner.Tests
         [Test]
         public void Test_SymLink()
         {
-            string path = @"C:\\Users\\maksimbell\\bsuir\\5sem\\dir_test\\dir_test_2";
+            string path = @"D:\\3course\\СПП\\Lab3";
 
             IDirectoryComponent root = _scanner.StartScanner(path, _cancelTokenSource.Token);
 
-            Assert.That(root.Size, Is.EqualTo(131578));
+            Assert.That(root.Size, Is.EqualTo(39081690));
         }
 
         [Test]
         public void Test_WindowsFolderFileCount()
         {
-            string path = @"C:\\Windows";
+            string path = @"D:\\3course\\WT";
 
             IDirectoryComponent root = _scanner.StartScanner(path, _cancelTokenSource.Token);
-            Assert.That(root.ChildNodes.Where(node => node.Type == ComponentType.File).Count, Is.EqualTo(42));
+            Assert.That(root.ChildNodes.Where(node => node.Type == ComponentType.File).Count, Is.EqualTo(0));
         }
 
         [Test]
         public void Test_Cancellation()
         {
-            string path = @"C:\\Users\\maksimbell\\bsuir\\5sem\\dir_test\\";
+            string path = @"D:\\3course\\WT\\";
 
             var task = Task<DirectoryComponent>.Factory.StartNew(() => 
                 (DirectoryComponent)_scanner.StartScanner(path, _cancelTokenSource.Token));

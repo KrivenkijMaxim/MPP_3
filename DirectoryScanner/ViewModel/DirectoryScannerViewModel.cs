@@ -2,11 +2,10 @@
 using System.ComponentModel;
 using System.Runtime.CompilerServices;
 using DirectoryScanner.Model;
-using System.Diagnostics;
 
 namespace DirectoryScanner.ViewModel
 {
-    public class DirectoryScannerViewModel: INotifyPropertyChanged // обязательно наследует
+    public class DirectoryScannerViewModel: INotifyPropertyChanged
     {
         private CancellationTokenSource _cancelTokenSource;
 
@@ -32,14 +31,10 @@ namespace DirectoryScanner.ViewModel
 
             _cancelTokenSource = new CancellationTokenSource(); 
             var token = _cancelTokenSource.Token;
-            Trace.WriteLine(Thread.CurrentThread.ManagedThreadId);
-            Trace.WriteLine("________________________________");
 
             Task.Run(() =>
             {
-                Trace.WriteLine(Thread.CurrentThread.ManagedThreadId);
-                Trace.WriteLine("________________________________");
-                var root = new DirectoryComponent("", "", ComponentType.Directory); //чтобы была видна первая папка
+                var root = new DirectoryComponent("", "", ComponentType.Directory); 
                 root.ChildNodes = new ObservableCollection<IDirectoryComponent> { _scanner.StartScanner(fbd.FileName, token) };
                 Root = root;
             });
